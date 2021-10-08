@@ -1,0 +1,10 @@
+c:\users\dilshan\documents\visual studio 2015\Projects\LoginView\LoginView\bin\Debug\LoginView.exe.config
+C:\Users\Dilshan\Documents\Visual Studio 2015\Projects\LoginView\LoginView\bin\Debug\LoginView.exe
+C:\Users\Dilshan\Documents\Visual Studio 2015\Projects\LoginView\LoginView\bin\Debug\LoginView.pdb
+C:\Users\Dilshan\Documents\Visual Studio 2015\Projects\LoginView\LoginView\obj\Debug\LoginView.csprojResolveAssemblyReference.cache
+C:\Users\Dilshan\Documents\Visual Studio 2015\Projects\LoginView\LoginView\obj\Debug\LoginView.Form1.resources
+C:\Users\Dilshan\Documents\Visual Studio 2015\Projects\LoginView\LoginView\obj\Debug\LoginView.Properties.Resources.resources
+C:\Users\Dilshan\Documents\Visual Studio 2015\Projects\LoginView\LoginView\obj\Debug\LoginView.csproj.GenerateResource.Cache
+C:\Users\Dilshan\Documents\Visual Studio 2015\Projects\LoginView\LoginView\obj\Debug\LoginView.exe
+C:\Users\Dilshan\Documents\Visual Studio 2015\Projects\LoginView\LoginView\obj\Debug\LoginView.pdb
+C:\Users\Dilshan\Documents\Visual Studio 2015\Projects\LoginView\LoginView\obj\Debug\LoginView.Form2.resources
