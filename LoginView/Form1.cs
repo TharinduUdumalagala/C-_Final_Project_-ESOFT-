@@ -21,17 +21,16 @@ namespace LoginView
         string Conn = ("Data Source=DESKTOP-QRDKHOV;Initial Catalog=Royal;Integrated Security=true");
         Form2 ob = new Form2();
 
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             try
             {
-                if(txtUserName.Text=="" && txtPassword.Text == "")
+                if (txtUserName.Text == "" && txtPassword.Text == "")
                 {
                 }
                 else
@@ -49,31 +48,25 @@ namespace LoginView
 
                     int count = ds.Tables[0].Rows.Count;
 
-                    if(count == 1)
+                    if (count == 1)
                     {
                         this.Hide();
                         ob.Show();
                     }
                     else
                     {
-                        MessageBox.Show("Invalid Login Credentials, Please Check UserName and Password  and try agin..","Alert",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                        MessageBox.Show("Invalid Login Credentials, Please Check UserName and Password  and try agin..", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
 
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Are you sure, Do you really went to Exit..?", "Alert",MessageBoxButtons.YesNo,MessageBoxIcon.Question);
-            Application.Exit();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click_1(object sender, EventArgs e)
         {
             Action<Control.ControlCollection> func = null;
 
@@ -92,6 +85,12 @@ namespace LoginView
                 }
             };
             func(Controls);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Are you sure, Do you really went to Exit..?", "Alert", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            Application.Exit();
         }
     }
 }
